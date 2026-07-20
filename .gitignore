@@ -1,0 +1,12 @@
+# Large data & generated artifacts (obtain per DATA.md / CHECKPOINTS.md)
+datasets/
+outputs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
