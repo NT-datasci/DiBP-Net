@@ -4,7 +4,7 @@ The trained DiBP-Net checkpoints (UCI and PulseDB), together with the generated
 splits and the metric CSVs behind every table, are **too large for version control**
 and are archived on Zenodo:
 
-> **Zenodo archive:** https://doi.org/<ZENODO-DOI>  <!-- TODO(author): paste DOI -->
+> **Zenodo archive:** https://doi.org/10.5281/zenodo.21450536
 
 Download the archive and unpack it so that the checkpoint and split files sit under
 the `outputs/` directory the notebooks expect (see [`DATA.md`](DATA.md) and each
