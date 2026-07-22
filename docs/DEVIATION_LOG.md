@@ -1,22 +1,22 @@
 # Deviation Log
 
 Append-only. Records every departure from
-`PREREGISTRATION_2026-07-13_cohort_admissibility.md` (locked at commit `4c60a50`,
-2026-07-13 22:21 +07). The pre-registration itself is **never edited**; each
-deviation is recorded here, with its reason, as that document requires.
+`PRESPECIFICATION.md` (the locked analysis plan, dated 2026-07-13, fixed before
+the corrected external-cohort analysis). The pre-specification itself is **never
+edited**; each deviation is recorded here, with its reason, as that document requires.
 
 ---
 
 ## D1 — BCG is excluded entirely, not retained for cross-sectional analysis
 
-**Pre-registered rule.** §2 stated that an inadmissible cohort is *"not deleted"*
+**Pre-specified rule.** §2 stated that an inadmissible cohort is *"not deleted"*
 and is *"retained for cross-sectional analyses only"*. §3 permitted a full drop
 only if the cohort *"cannot support a cross-sectional analysis either,
 operationalised as: fewer than 30 admissible units after de-duplication, or no
 definable unit at all."*
 
 **What actually happened.** After re-keying, BCG has 2,469 definable recording
-units, which is far above the 30-unit threshold. The pre-registered
+units, which is far above the 30-unit threshold. The pre-specified
 operationalisation therefore does **not** trigger a full drop. It nevertheless
 turns out that BCG can produce **no cross-sectional result at all**:
 
@@ -33,7 +33,7 @@ merely reduced power.
 
 **Deviation.** BCG is dropped from the manuscript entirely.
 
-**Why the pre-registered threshold was not amended.** The natural temptation is
+**Why the pre-specified threshold was not amended.** The natural temptation is
 to shorten the input window for BCG so that it clears the bar, or to rewrite §3's
 threshold so that it now excludes BCG cleanly. Both were rejected. Shortening the
 window after seeing the result is a design change made to rescue a cohort, and
@@ -42,7 +42,7 @@ rule-bending. Either move is the exact retroactive protocol-fitting this
 manuscript exists to criticise, and either would be visible in this repository's
 history. The rule stays as written and the gap in it is recorded here instead.
 
-**The condition that should have been pre-registered**, stated now for any future
+**The condition that should have been pre-specified**, stated now for any future
 work, and explicitly **not** applied retroactively as if it had been:
 
 > A cohort with zero model-eligible input windows is excluded regardless of its
@@ -77,7 +77,7 @@ only in the calibration step.
 
 ---
 
-## D2 — Multi-Sensor PPG re-keying, as pre-registered
+## D2 — Multi-Sensor PPG re-keying, as pre-specified
 
 Not a deviation; recorded for completeness. §4 committed to adopting the
 corrected keying unconditionally and direction-blind. Applied: 2,383 row-index

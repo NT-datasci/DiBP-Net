@@ -5,8 +5,8 @@ manuscript prose was edited, so that the rewrite reads off this table rather tha
 re-deriving numbers five times.
 
 Companion documents:
-- `PREREGISTRATION_2026-07-13_cohort_admissibility.md` (locked, commit `4c60a50`)
-- `DEVIATION_LOG_2026-07-13.md` (append-only, commit `1dfa70c`)
+- `PRESPECIFICATION.md` (locked analysis plan, dated 2026-07-13)
+- `DEVIATION_LOG.md` (append-only)
 - `outputs/audit_subject_keying/` (before/ snapshot, bug_evidence.json, diff)
 
 ---
@@ -78,7 +78,7 @@ on **3**.
 | **V(1) separation** | **18–36×** | **5–18×** |
 
 **These two rows weaken our own argument** and are reported as such, per
-pre-registration §4. The UCI-versus-external gap narrows but does not close:
+pre-specification §4. The UCI-versus-external gap narrows but does not close:
 0.955 against 0.425–0.625, still a factor of 1.5 to 2.2.
 
 ### 3.3 §V-C and Table VI (AAMI/BHS, beat-level SCal)
@@ -136,7 +136,7 @@ exception**.
 The conclusion is unchanged and slightly stronger in absolute terms: no static
 remedy closes a gap of roughly 14 mmHg, even one handed 70% of the target labels.
 
-### 3.6 §V-F (pre-registered drift test) — **role changes**
+### 3.6 §V-F (pre-specified drift test) — **role changes**
 
 | Multi-Sensor `c_slow` vs SBP | old | **new** |
 |---|---|---|

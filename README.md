@@ -1,6 +1,6 @@
 # DiBP-Net: Diagnosing Benchmark Validity in Cuffless Blood Pressure Estimation
 
-Code, trained-model pointers, pre-registration, deviation log, and the complete
+Code, trained-model pointers, pre-specification, deviation log, and the complete
 before/after audit trail for the paper:
 
 > N. Na Prasit, *DiBP-Net: Diagnosing Benchmark Validity in Cuffless Blood Pressure
@@ -21,7 +21,7 @@ checkpoints are archived separately (see [`CHECKPOINTS.md`](CHECKPOINTS.md)).
    tau = RC is identifiable; raw compliance C reverses sign across domains while tau
    does not.
 3. **Calibration transfer.** The representation transfers across external cohorts;
-   the calibration does not. A pre-registered falsification test localises the
+   the calibration does not. A pre-specified falsification test localises the
    residual external gap to within-session drift of the *label*, not the model.
 
 ## Repository layout
@@ -43,8 +43,8 @@ release/
 │   ├── presplit_pulsedb.py         # PulseDB subject-level split preparation
 │   └── audit_numbers.py            # re-verifies every reported number from source files
 └── docs/
-    ├── PREREGISTRATION.md          # locked confirmatory endpoint (drift falsification)
-    ├── DEVIATION_LOG.md            # every deviation from the pre-registration
+    ├── PRESPECIFICATION.md         # locked confirmatory endpoint (drift falsification)
+    ├── DEVIATION_LOG.md            # every deviation from the pre-specification
     └── AUDIT_MASTER.md             # before/after audit trail of reported numbers
 ```
 
@@ -75,11 +75,11 @@ Auxiliary:
   and guard-band audit (Section 5.1).
 - `scripts/audit_numbers.py` re-checks the reported figures against the source CSVs.
 
-## Pre-registration and audit trail
+## Pre-specification and audit trail
 
-The one confirmatory test — the within-session drift falsification (Section 5.6) —
-was pre-registered with a single locked endpoint before any numbers were observed.
-`docs/PREREGISTRATION.md` is that document; `docs/DEVIATION_LOG.md` records every
+The one confirmatory test — the within-session drift falsification (Section 5.7) —
+had a single locked confirmatory endpoint, specified before the external-cohort
+analysis. `docs/PRESPECIFICATION.md` is that document; `docs/DEVIATION_LOG.md` records every
 departure from it; `docs/AUDIT_MASTER.md` is the before/after trail for every number
 in the manuscript.
 

@@ -1,4 +1,4 @@
-# Pre-Registration: Cohort Admissibility After the Subject-Keying Audit
+# Pre-Specification: Cohort Admissibility After the Subject-Keying Audit
 
 **Locked:** 2026-07-13, before re-running any downstream experiment.
 **Author:** N. Na Prasit
@@ -7,7 +7,7 @@
 This document fixes the decision rules *before* the corrected numbers exist, so
 that the choice of which cohorts to keep, and in which analyses, cannot be
 accused of being tuned to whichever result looks better. It follows the same
-discipline as the EXP-R4 pre-registered falsification test already reported in
+discipline as the EXP-R4 pre-specified falsification test already reported in
 the manuscript.
 
 ---
