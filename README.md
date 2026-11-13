@@ -1,10 +1,12 @@
 # DiBP-Net: Diagnosing Benchmark Validity in Cuffless Blood Pressure Estimation
 
+> **Status: historical archive.** This repository documents an earlier stage of the DiBP-Net project (July to August 2026). Its historical contents are retained as a record of that stage. It is not maintained, and it is not the code release of any later manuscript from this project. The methods, data partitions and results of later work differ from what is described here.
+
 Code, trained-model pointers, pre-specification, deviation log, and the complete
-before/after audit trail for the paper:
+before/after audit trail for the manuscript of that stage:
 
 > N. Na Prasit, *DiBP-Net: Diagnosing Benchmark Validity in Cuffless Blood Pressure
-> Estimation.* (under review). <!-- TODO: add DOI once published -->
+> Estimation.* Manuscript of an earlier project stage.
 
 This repository is the reproducibility package. It is deliberately small: the raw
 datasets are third-party and public (see [`DATA.md`](DATA.md)) and the trained
@@ -85,13 +87,12 @@ in the manuscript.
 
 ## Citation
 
-<!-- TODO(author): replace with the final citation + DOI on acceptance. -->
 ```bibtex
-@article{NaPrasit_DiBPNet,
+@unpublished{NaPrasit_DiBPNet,
   title  = {DiBP-Net: Diagnosing Benchmark Validity in Cuffless Blood Pressure Estimation},
   author = {Na Prasit, Natthanan},
   year   = {2026},
-  note   = {under review}
+  note   = {Manuscript, historical project stage}
 }
 ```
 
